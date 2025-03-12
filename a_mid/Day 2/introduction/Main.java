@@ -34,7 +34,5 @@ public class Main {
 		
 		//destroying the object after we finish our work
 		o1.close();
-		
-		
 	}
 }
