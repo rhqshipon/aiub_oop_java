@@ -1,5 +1,4 @@
-public class Shape
-{
+public class Shape	{
 	protected double value;
 	
 	public Shape(){System.out.println("Default Shape");}
@@ -8,5 +7,5 @@ public class Shape
 	public void setValue(double value){this.value = value;}
 	public double getValue(){return value;}
 	
-	public double getArea(){return 9.99;}
+	public double getArea(){return 0;}
 }
