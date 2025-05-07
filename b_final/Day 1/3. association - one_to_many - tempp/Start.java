@@ -56,7 +56,8 @@ public class Start
 		
 		
 		System.out.println();
-		c1.searchAccount(1113);
+		if(c1.searchAccount(1113) != null){System.out.println("Account " + 1113 + " Exists");}
+		else{System.out.println("Account " + 1113 + " Does not exist");}
 	}
 }
 
