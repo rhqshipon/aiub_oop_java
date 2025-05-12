@@ -1,8 +1,6 @@
 public class Start {
 	public static void main(String[] args) {
-		//Account a1 = new Account(100001, "Mohammad Rabiul Hoque", 500.5);
-		//Customer c1 = new Customer("+8801914690095", a1);
-		//c1.displayDetails();
+		
 		
 		Customer c1 = new Customer("+880123456678", 5);
 		
