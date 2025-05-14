@@ -6,5 +6,7 @@ public class Start
 	{
 		FrameIntro fi = new FrameIntro();
 		fi.setVisible(true);
+		// Center the frame on the screen
+        fi.setLocationRelativeTo(null); // <-- This does the centering
 	}
 }
