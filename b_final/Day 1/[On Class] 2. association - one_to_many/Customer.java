@@ -32,35 +32,33 @@ public class Customer
 	
 	public void insertAccount(Account a)
 	{
-		boolean flag = false;
-		int i;
+		int flag = 0, i;
 		for(i=0; i<accounts.length; i++)
 		{
 			if(accounts[i] == null)
 			{
 				accounts[i] = a;
-				flag = true;
+				flag = 1;
 				break;
 			}
 		}
-		if(flag){System.out.println("Account " + accounts[i].getAccountNum() + " ---- Inserted");}
+		if(flag == 1){System.out.println("Account " + accounts[i].getAccountNum() + " ---- Inserted");}
 		else {System.out.println("Account " + a.getAccountNum() + " ---- Could Not Be Inserted");}
 	}
 	
 	public void removeAccount(Account a)
 	{
-		boolean flag = false;
-		int i;
+		int flag = 0, i;
 		for(i=0; i<accounts.length; i++)
 		{
 			if(accounts[i] == a)
 			{
 				accounts[i] = null;
-				flag = true;
+				flag = 1;
 				break;
 			}
 		}
-		if(flag){System.out.println("Account " + a.getAccountNum() + " ---- Removed");}
+		if(flag == 1){System.out.println("Account " + a.getAccountNum() + " ---- Removed");}
 		else {System.out.println("Account " + a.getAccountNum() + " ---- Could Not Be Removed");}
 	}
 	
@@ -78,7 +76,6 @@ public class Customer
 				}
 			}
 		}
-		
 		return a;
 	}
 }
