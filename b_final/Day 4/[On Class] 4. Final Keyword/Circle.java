@@ -14,11 +14,10 @@ public final class Circle extends Shape
         return Constants.PI * radius * radius;
     }
 	
-	/*
-	@Override
-	public final void printArea()
-	{
-        System.out.println("Hello");
-    }
-	*/
+	
+	// @Override
+	// public final void printArea()	{
+        // System.out.println("Hello");
+    // }
+	
 }
